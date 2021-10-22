@@ -1,0 +1,33 @@
+.fonte-navbar-titulo {
+    color: rgba(240, 255, 240, 0.705);
+    transition: 0.3s transform;
+}
+
+.fonte-navbar-titulo:hover {
+    transform: scale(1.3);
+    color: yellow;
+    font-weight: bold;
+}
+
+.fonte-navbar {
+    display: block;
+    padding: 5px 20px;
+    color: rgba(240, 255, 240, 0.705);
+    text-decoration: none;
+	transition: 0.5s transform;
+}
+
+.fonte-navbar:hover {
+	transform: scale(1.3);
+    color: yellow;
+    font-weight: bold;
+}
+
+.navbar-padding {
+    padding: 20px;
+}
+
+body {
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
