@@ -1,5 +1,5 @@
-.cor-navbar {
-    background-image: linear-gradient(-45deg, transparent, rgba(51,51, 51, 0) 70%, rgba(0, 10, 20, 0.9) 95%);
+.edicao-navbar {
+    background-image: linear-gradient(to right, rgba(0, 10, 20, 0.9), rgba(51,51, 51, 0) 20%, transparent 90%, rgba(51,51, 51, 0) 20%, rgba(0, 10, 20, 0.9));
 }
 
 .fonte-principal {
