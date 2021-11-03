@@ -6,16 +6,22 @@
 #filmesNostalgicos {
     display: flex;
     color: white;
+<<<<<<< HEAD:catalogo.css
     font-family: 'Roboto', sans-serif;
     margin-left: 10px;
+=======
+>>>>>>> e5bf6234667c23875038a87f499a8ce6bbf248ee:css/catalogo.css
 }
 
 #filmesPopulares {
     display: flex;
     color: white;
+<<<<<<< HEAD:catalogo.css
     font-family: 'Roboto', sans-serif;
     margin-left: 10px;
     margin-top: 10px;
+=======
+>>>>>>> e5bf6234667c23875038a87f499a8ce6bbf248ee:css/catalogo.css
 }
 
 .containerImagensCatalogo {
@@ -297,6 +303,7 @@
     border: 1px solid rgba(13, 12, 12, 0.5);
     margin-left: 70px;
     color: white;
+<<<<<<< HEAD:catalogo.css
 }
 
 .rodape {
@@ -351,3 +358,6 @@
     margin-left: 40px;
 }
 
+=======
+}
+>>>>>>> e5bf6234667c23875038a87f499a8ce6bbf248ee:css/catalogo.css

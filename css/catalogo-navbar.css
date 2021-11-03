@@ -1,5 +1,9 @@
-.cor-navbar {
-    background-image: linear-gradient(-45deg, transparent, rgba(51,51, 51, 0) 70%, rgba(0, 10, 20, 0.9) 95%);
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.edicao-navbar {
+    background-image: linear-gradient(to right, rgba(0, 10, 20, 0.9), rgba(51,51, 51, 0) 20%, transparent 90%, rgba(51,51, 51, 0) 20%, rgba(0, 10, 20, 0.9));
 }
 
 .fonte-principal {
@@ -55,8 +59,14 @@
     background-size: 25px;
     background-repeat: no-repeat;
     border-radius: 10px;
-    width: 340px;
+    width: 360px;
     background-color: rgba(13, 12, 12, 0.5);
     border: 1px solid rgba(13, 12, 12, 0.5);
     margin-left: 70px;
+}
+
+.texto-busca::placeholder {
+    color:rgba(255, 255, 255, 1);
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
 }
