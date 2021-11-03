@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>ResiliaFlix</title>
+		<title>ResiliaFlix - Catálogo</title>
 		
 		<link rel="icon" type="image/png" href="assets/favicon.png"/>
 
@@ -13,11 +13,12 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/catalogo.css">
+		<link rel="stylesheet" href="css/navbar-catalogo.css">
         <link rel="stylesheet" href="css/rodape.css">
 
 	</head>
 
-	<body>
+	<body id="corDeFundo" class ="posicionamentoDoForm">
         <header class="header">
 			<nav class="navbar navbar-dark navbar-expand-lg fixed-top edicao-navbar">
 				<div class="container-fluid">
@@ -41,6 +42,51 @@
 			</nav>
 		</header>
 
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="assets.catálogo\Jurassic Park-paisagem.jpg" class="d-block w-100" height="550px" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="assets.catálogo\ET-paisagem.jpg" class="d-block w-100" height="550px" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="assets.catálogo\pulp-fiction-tempos-de-violência-paisagem.jpg" class="d-block w-100" height="550px" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<div class ="container.imagensCatalogo">
+				<h4 id="filmesPopulares"> FILMES POPULARES </h4>
+			<img type="img" src="assets.catálogo\Star Wars - Uma nova esperança.jpg" id="StarWars" alt="Filme Star Wars IV: Uma nova esperança" width="200px" height="300px">
+			<img type="img" src="assets.catálogo\Titanic_poster.jpg" id="Titanic" alt="Titanic" width="200px" height="300px"> 
+			<img type="img" src="assets.catálogo\filme-de-volta-para-o-futuro.jpg" id="DeVoltaParaOFuturo" alt="De volta para o futuro" width="200px" height="300px">
+			<img type="img" src="assets.catálogo\Pulp_Fiction.jpg" id="PulpFiction" alt="Pulp Fiction" width="200px" height="300px"> 
+			<img type="img" src="assets.catálogo\Jurassic Park.jpg" id="JurassicPark" alt="Jurassic Park"width="200px" height="300px" >
+			<img type="img" src="assets.catálogo\Homem Aranha 1.jpg" id="HomemAranha" alt="Homem Aranha"width="200px" height="300px" >
+		</div>
+		<div classe="container.imagensCatalogo2">
+			<h4 id="filmesNostalgicos"> FILMES NOSTÁLGICOS </h4>
+			<img type="img" src="assets.catálogo\A bela e a fera.jpg" id="ABelaEAFera" alt="A Bela e a Fera" width="200px" height="300px">
+			<img type="img" src="assets.catálogo\ET.jpg" id="ET" alt="ET" width="200px" height="300px">
+			<img type="img" src="assets.catálogo\Indiana Jones e os Caçadores da Arca Perdida.jpg" id="IndianaJones1" alt="Indiana Jones e os Caçadores da Arca Perdida" width="200px" height="300px">
+			<img type="img" src="assets.catálogo\CURTINDO-A-VIDA-ADOIDADO-1.jpg" id="CurtindoAVida" alt="Curtindo a Vida Adoidado" width="200px" height="300px">
+			<img type="img" src="assets.catálogo\Grease.jpg" id="Grease" alt="Grease" width="200px" height="300px">
+			<img type="img" src="assets.catálogo\Goonies.jpg" id="Gonnies" alt="Os Gonnies" width="200px" height="300px">
+		</div>
+
         <footer class="rodape">
             <div class="container-rodape">
                 <p class="copyright">ResiliaFlix &copy; 2021</p>
@@ -48,7 +94,7 @@
             </div>
         </footer>	
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     </body>
 </html>

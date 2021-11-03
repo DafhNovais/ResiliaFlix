@@ -1,5 +1,5 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   /*Tornar o elemento um flex container, transformando todos os seus elementos internos(filhos em flex itens.*/
   display: flex;
 
@@ -144,7 +144,7 @@ button{
 }
 
 .modal fade show{ 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   /*Tornar o elemento um flex container, transformando todos os seus elementos internos(filhos em flex itens.*/
   display: flex;
 
@@ -162,7 +162,7 @@ button{
 .modal-dialog {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%) translateX(-50%) !important;
 }
 
@@ -183,7 +183,7 @@ button{
   max-width: 70vw;
   min-width: 0vw;
   border-radius: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .modal-titulo{
@@ -215,7 +215,7 @@ button{
   width: 100%;
   display: block;
   background: #000A14;
-  color: white;
+  color: #6c757d;
   /*Definindo a altura do elemento*/
   height: 20px;
   border-top: #000A14;
@@ -231,7 +231,8 @@ button{
 }
 
 .aviso-email {
-  font-size: 11px;
+  font-size: 12px;
   color: #6c757d;
+  font-weight: bold;
   padding: 0 15px;
 }
