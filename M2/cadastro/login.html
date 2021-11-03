@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fazer Login</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="login.css" />
+    </head>
+    <body>
+        <div>
+            <header>
+             ResiliaFlix
+            </header>
+            <main>
+                <div class="principal">
+                    <form action="#">
+                        <h1>Fazer Login</h1>
+                        <div class="container">
+                            <!--<label class="label-email">Email</label>-->
+                            <input type="email" required class="inputSenhaEmail" name= "email" placeholder="Email" autofocus>
+                        </div>
+                        <div class="container">
+                            <!--<label class="label-senha">Senha</label>-->
+                            <input type="password" required class="inputSenhaEmail" name= "password" placeholder="Senha">
+                        </div>
+                        <div class="blocolembraresqueci">
+                            <div class="lembrar-me">
+                                <input type="checkbox" required name= "accept">
+                                <label>Lembrar-me</label>
+                            </div>
+                            <a data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop" href="text" style="text-decoration: none">Esqueci senha</a>
+                        </div>
+                        <button>enviar</button>
+                        <div class="novoaqui">
+                            <h3>Novo por aqui?</h3>
+                            <a href="cadastro.html">Cadastre-se</a>
+                        </div>                        
+                    </form>
+                </div>
+            </main>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h1 class="modal-titulo" id="staticBackdropLabel">
+                            Esqueci minha senha
+                        </h1>
+                        <h3>Informe seu e-mail para continuar</h3>
+                        <h2>E-mail</h2>
+                        <input type="email" />
+                        <h3>
+                            Não se preocupe, enviamos um email com instruções de como
+                            redefinir sua senha.
+                        </h3>
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                        <h3>
+                            <a type="text" data-bs-dismiss="modal" href="#" class="ca">Cancelar</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+    
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+                    
+          
+    
+    </body>
+</html>
