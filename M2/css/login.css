@@ -161,10 +161,9 @@ button{
 
 .modal-dialog {
   position: absolute;
-  left: 32%;
-  top: 20%;
-  /* left: 50%;
-  top: 50%; */
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%) !important;
 }
 
 .modal-edicao {
