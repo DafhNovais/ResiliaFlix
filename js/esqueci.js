@@ -9,7 +9,7 @@ email.addEventListener("input", function(){
         }
     } else {
         botao.onclick = function(a) {
-            alert("Insira um e-mail válido");
+            alert("Insira um e-mail válido!");
             a.preventDefault();
         }
     } 
