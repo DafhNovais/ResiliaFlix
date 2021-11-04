@@ -151,6 +151,6 @@ valorFilmes.addEventListener("input", function () {
             filmePopular.style.display = "";
             filmeNostalgico.style.display = "";
             mensagemErro.style.display = "none";
-
+            
       }
 })
