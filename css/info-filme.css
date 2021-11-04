@@ -19,6 +19,7 @@ section.filme {
   z-index: 1;
   top: -100px;
   padding-top: 120px;
+  padding-bottom: 170px;
 }
 
 .overlay {
@@ -101,7 +102,7 @@ section.filme {
 }
 
 .mg {
-  margin-top: 210px;
+  margin-top: 70px;
 }
 
 .slider {
