@@ -15,8 +15,10 @@ section.filme {
   background-position: center;
   width: 100%;
   min-height: 720px;
-  position: absolute;
+  position: relative;
   z-index: 1;
+  top: -100px;
+  padding-top: 120px;
 }
 
 .overlay {

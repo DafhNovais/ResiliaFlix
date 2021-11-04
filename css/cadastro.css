@@ -1,16 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 #imgFundo {
-  background-image: url('bgLoginCadastro.png');
+  background-image: url('../assets/bgLoginCadastro.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
+
 main {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
+
 form {
   height: 370px;
   background: #000a14cc;
@@ -20,15 +26,18 @@ form {
   font-size: 12px;
   width: 550px;
 }
+
 h1 {
   margin-top: 10px;
   font-size: 20px;
 }
+
 a {
   font-size: 12px;
   font-weight: bold;
   color: white;
 }
+
 .blocoPrincipal {
   height: 250px;
   width: 550px;
@@ -36,6 +45,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 .bloco {
   width: 275px;
   height: 125px;
@@ -48,6 +58,7 @@ a {
     margin: 0 38px;
     position: relative;
 }
+
 .endereco {
   display: flex;
   width: 190px;
@@ -58,6 +69,7 @@ a {
 .endereco input{
   width: 95px;
 }
+
 input {
   background: #000a1400;
   color: white;
@@ -69,9 +81,11 @@ input {
   width: 190px;
   margin-top: 10px;
 }
+
 ::placeholder {
   color: white;
 }
+
 select {
   background: #000a1400;
   color: white;
@@ -83,6 +97,7 @@ select {
   width: calc(50% + 10px);
   margin-top: 10px;
 }
+
 button {
   font-size: 16px;
   margin-top: 5px;
