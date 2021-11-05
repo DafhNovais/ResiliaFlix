@@ -50,9 +50,10 @@ header{
 
 .container{
   display: flex;
-  padding-top: 10px;
   width: 270px;
+  padding-top: 20px;
   flex-direction: column;
+  position: relative;
 }
 
 input{
@@ -60,29 +61,33 @@ input{
 }
 
 .inputSenhaEmail{
-  background: #000a1400;
+  background-color: transparent;
   color: white;
   /*Definindo a altura do elemento*/
-  height: 20px;
-  border-top: #1014000a;
-  border-left: #1014000a;
+  height: 30px;
+  border: none;
   border-bottom: 1px solid #E0CB10;
-  border-right: #1014000a;
   max-width: 50vw;
-  margin: 10px 0px 10px 0;
+  margin: 10px 0px 0px 0;
   /*Definindo a largura do elemento*/
   width: calc(100% + 10px); 
   margin-top: 10px;
+  outline: none;
 }
 
 #msgemail {
   display: block !important;
 }
 
+#msgsenha{
+  display: block !important;
+}
+
+
 input::placeholder {
   color: white;
-  margin-top:3px;
-  margin-left: 2px;​
+  position: absolute;
+  padding-bottom: 9px;
 }
 
 .blocolembraresqueci{
@@ -106,19 +111,6 @@ a{
   font-family: Arial, Helvetica, sans-serif;
   max-width: 25vw;
 }
-
-
-/*label{
-  background: #000a1400;
-  color: white;
-  /*Definindo a altura do elemento*/
-  /*height: 20px;
-  max-width: 60vw;
-  margin: 10px 10px;
-  /*Definindo a largura do elemento*/
-/*   
-}
-*/
 
 button{
   font-size: 12px;
@@ -161,7 +153,12 @@ button{
   
   /*Altura mínima do elemnto.
   Unidades de tamanho da tela vh e vw. */
-  min-height: 100vh;
+  min-height: 200vh;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .modal-dialog {
@@ -191,13 +188,19 @@ button{
   font-family: 'Roboto', sans-serif;
 }
 
-.modal-titulo{
-  display: flex;
-  justify-content: center;
+.modal-header{
+  padding: 1rem 1rem;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+  border-bottom: none;
+}
+
+.modal-title{
+  text-align: center;
   /* Tamanho fonte h1- título formulário*/
-  font-size: 30px; 
+  font-size: 27px; 
   /*Gerar espaço ao redor do conteudo do elemento 10px superior,esquerdo e direito e 30 px inferior*/
-  padding: 10px 0 35px 0;
+  padding: 12px 10px 20px 10px;
 }
 
 .modal-body h1{
@@ -219,20 +222,18 @@ button{
 .caixa-email{
   width: 100%;
   display: block;
-  background: #000A14;
-  color: #fff;
+  background-color: transparent;
+  color: white;
   /*Definindo a altura do elemento*/
-  height: 20px;
-  border-top: #000A14;
-  border-left: #000A14;
+  height: 30px;
+  border: none;
   border-bottom: 1px solid #E0CB10;
-  border-right: #000A14;
   max-width: 50vw;
-  padding: 5px 10px;
-  /*Definindo a largura do elemento*/ 
+  margin: 10px 0px 0px 0;
+  /*Definindo a largura do elemento*/
+  width: calc(100% + 10px); 
   margin-top: 10px;
-  /* border-left: 15px;
-  border-right: 15px; */
+  outline: none;
 }
 
 .aviso-email {
