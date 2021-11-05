@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-  }  
+}  
 
 #corDeFundo {
     background-color: rgba(0, 10, 20, 1);
@@ -34,35 +34,34 @@ body {
     margin: 10px 0;
 }
 
-.detalhes-filmes-carrossel {
-    font-weight: bold;
-    display: inline-block;
-}
-
 #filmesNostalgicos {
     display: flex;
     color: white;
     font-family: 'Roboto', sans-serif;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-bottom: 12px;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 #filmesPopulares {
     display: flex;
     color: white;
     font-family: 'Roboto', sans-serif;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .containerImagensCatalogo {
+    display: flex;
     align-items: center; 
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .containerImagensCatalogo img:hover{
@@ -123,8 +122,11 @@ body {
 }
 
 #tituloCarroselET {
-    /* margin-right: 1200px;
-    font-weight: 800; */
+    margin-bottom: 40px;
+    /* margin-right: 1300px; */
+    padding-right: 10px;
+    font-weight:800;
+    /* width: 330px; */
     text-shadow:rgb(0, 0, 0) 3px 4px 5px;
 }
 
@@ -138,10 +140,11 @@ body {
 }
 
 #infoET {
-    font-weight: 700;
+    font-weight: 500;
     text-align: left;
-    margin-top: 40px;
     font-family: 'Roboto', sans-serif;
+    line-height: 10px;
+    padding: 3px;
 }
 
 #sinopseET {
@@ -183,10 +186,10 @@ body {
 }
 
 #tituloCarroselPulpFiction {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     /* margin-right: 1300px; */
-    padding-right: 50px;
-    font-weight: 800;
+    padding-right: 10px;
+    font-weight:800;
     /* width: 330px; */
     text-shadow:rgb(0, 0, 0) 3px 4px 5px;
 }
@@ -201,10 +204,16 @@ body {
 }
 
 #infoPulp {
-    font-weight: 700;
+    font-weight: 500;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    line-height: 10px;
+    padding: 3px;
+
+    /* font-weight: 700;
     text-align: left;
     margin-top: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; */
 }
 
 #sinopsePulp {
