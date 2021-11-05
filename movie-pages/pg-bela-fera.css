@@ -127,7 +127,7 @@
     overflow-x: auto;
     position: absolute;
     left: 23px;
-    top: 660px;
+    top: 650px;
     right: 0;
     z-index: 3;
   }
@@ -149,6 +149,10 @@
   
   .movie{
       width: 220px;
+  }
+
+  .movie img:hover {
+    transform: scale(105%);
   }
   
   .slider .movie {
