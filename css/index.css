@@ -60,7 +60,7 @@ main:before {
 }
 
 section {
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .imagem-fundo {
@@ -129,7 +129,7 @@ section {
     border-radius: 5px;
     border: 2px solid rgba(224, 203, 16, 1);
     font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
     font-size: 18px;
 }
 
@@ -175,7 +175,7 @@ section {
 }
 
 #ferramentas {
-    padding-top: 60px;
+    padding-bottom: 80px;
 }
 
 .ferramentas-lista {

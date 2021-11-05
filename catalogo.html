@@ -14,30 +14,30 @@
 		<link rel="stylesheet" href="css/navbar-catalogo.css">
     <link rel="stylesheet" href="css/rodape.css">
   </head>
+
 	<body id="corDeFundo" class ="posicionamentoDoForm">
-        <header class="header">
-			<nav class="navbar navbar-dark navbar-expand-lg fixed-top edicao-navbar">
-				<div class="container-fluid">
-					<a class="fonte-principal titulo-edicoes" href="#">ResiliaFlix</a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-						<ul class="navbar-nav mb-2 mb-lg-0">
-							<form class="d-flex">
-              <input class="form-control me-2 texto-busca imagem-lupa" id="lupa" type="search" placeholder="Não encontrou o que estava procurando?" aria-label="Search">
-             </form>
-						</ul>
-						<div class="d-flex">
-							<a href="#">
-								<img class="icone-login" src="assets/user.png" alt="Ícone de um boneco"></img>
-							</a>
-						</div>
-					</div>
-				</div>
-			</nav>
-		</header>
-    <body id="corDeFundo" class ="posicionamentoDoForm">
+      <header class="header">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top edicao-navbar">
+          <div class="container-fluid">
+            <a class="fonte-principal titulo-edicoes" href="index.html">ResiliaFlix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <form class="d-flex">
+                <input class="form-control me-2 texto-busca imagem-lupa" id="lupa" type="search" placeholder="Não encontrou o que estava procurando?" aria-label="Search">
+              </form>
+              </ul>
+              <div class="d-flex">
+                <a href="login.html">
+                  <img class="icone-login" src="assets/user.png" alt="Ícone de um boneco"></img>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+		  </header>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -53,12 +53,11 @@
                 JURASSIC PARK
               </h1>
               <div id="conteudoCarroselJurassic">
-              <p id="infoJurassic">RUNTIME:2H07 YEAR:1993 DIRETOR:STEVE SPIELBERG GENÊRO:FICÇÃO CIENTÍFICA/AVENTURA IMDB:8.1</p>
-                <p id="sinopseJurassic">
-                  SINOPSE: Durante um tour o parque sofre falta de energia eléctrica o que faz que um dinossauro clonado saia do seu claustro.
-                </p>
-                <a target ="_blank" href="">
-                  <button type="button" class="btn btn-secondary" id="botao1">SAIBA MAIS</button>
+                <p id="infoJurassic">RUNTIME:2H07 YEAR:1993 DIRETOR:STEVE SPIELBERG GENÊRO:FICÇÃO CIENTÍFICA/AVENTURA IMDB:8.1</p>
+                <p id="sinopseJurassic"> SINOPSE: Durante um tour o parque sofre falta de energia eléctrica o que faz que um dinossauro clonado saia do seu claustro.</p>
+                <a class="botao-carrossel" target="_blank" href="">
+                  <button id="botao-saiba-mais"  href="#ferramentas"><img src="assets/movies-sit-drink.png"> SAIBA MAIS</button>           
+                  <!-- <button type="button" class="btn btn-secondary" id="botao1">SAIBA MAIS</button> -->
                 </a>
               </div>
             </div>
@@ -69,11 +68,11 @@
             <div class="carousel-caption d-none d-md-block">
               <h1 id="tituloCarroselET"> E.T </h1>
               <div class="conteudoCarroselET">
-                <p id="infoET"> RUNTIME:1H55 YEAR:1982 DIRETOR:STEVE SPIELBERG GENÊRO:FICÇÃO CIENTÍFICA/AVENTURA IMDB:7.8
-                  </p>
+                <p id="infoET"> RUNTIME:1H55 YEAR:1982 DIRETOR:STEVE SPIELBERG GENÊRO:FICÇÃO CIENTÍFICA/AVENTURA IMDB:7.8</p>
                 <p id="sinopseET">SINOPSE: O garoto Elliott faz amizade com um pequeno alienígena inofensivo que está bem longe do seu planeta. Ele decide manter a adorável criatura em segredo e em casa após apresentá-la aos irmãos.</p>
-                <a target ="_blank" href="">                
-                  <button type="button" class="btn btn-secondary" id="botao1">SAIBA MAIS</button>
+                <a class="botao-carrossel" target ="_blank" href="">   
+                    <button id="botao-saiba-mais"  href="#ferramentas"><img src="assets/movies-sit-drink.png"> SAIBA MAIS</button>           
+                  <!-- <button type="button" class="btn btn-secondary" id="botao1">SAIBA MAIS</button> -->
                 </a>
               </div>
             </div>
@@ -84,13 +83,12 @@
             <div class="carousel-caption d-none d-md-block">
               <h1 id="tituloCarroselPulpFiction">PULP FICTION</h1>
               <div id="conteudoCarroselPulpFiction">
-              <p id="infoPulp">RUNTIME:2H34 YEAR:1994 DIRETOR:QUENTIN TARANTINO GENÊRO:CRIME/DRAMA IMDB:8.9</p>
-                 <p id="sinopsePulp">
-                   SINOPSE: As vidas de dois assassinos da máfia, um boxeador, um gângster e sua esposa, e um par de bandidos se entrelaçam em quatro histórias de violência e redenção.
-                 </p>
-                 <a target ="_blank" href="">
-                  <button type="button" class="btn btn-secondary" id="botao1">SAIBA MAIS</button>
-                </a>
+                  <p id="infoPulp">RUNTIME:2H34 YEAR:1994 DIRETOR:QUENTIN TARANTINO GENÊRO:CRIME/DRAMA IMDB:8.9</p>
+                  <p id="sinopsePulp">SINOPSE: As vidas de dois assassinos da máfia, um boxeador, um gângster e sua esposa, e um par de bandidos se entrelaçam em quatro histórias de violência e redenção.</p>
+                  <a class="botao-carrossel" target ="_blank" href="">
+                    <button id="botao-saiba-mais"  href="#ferramentas"><img src="assets/movies-sit-drink.png"> SAIBA MAIS</button>           
+                    <!-- <button type="button" class="btn btn-secondary" id="botao1">SAIBA MAIS</button> -->
+                  </a>
               </div>
             </div>
           </div>
@@ -104,66 +102,65 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-        </div>
             <!--A FILEIRA DE FILMES POPULARES-->
-            <h4 id="filmesPopulares"> FILMES POPULARES </h4>
-               <div class ="containerImagensCatalogo">
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\Star Wars - Uma nova esperança.jpg" id="StarWars" alt="Filme Star Wars IV: Uma nova esperança" width="200px" height="300px">
-        </a>
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\Titanic_poster.jpg" id="Titanic" alt="Titanic" width="200px" height="300px">
-        </a>
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\filme-de-volta-para-o-futuro.jpg" id="DeVoltaParaOFuturo" alt="De volta para o futuro" width="200px" height="300px">
-        </a>
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\Pulp_Fiction.jpg" id="PulpFiction" alt="Pulp Fiction" width="200px" height="300px">
-        </a>
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\Jurassic Park.jpg" id="JurassicPark" alt="Jurassic Park"width="200px" height="300px">
-        </a>
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\Homem Aranha 1.jpg" id="HomemAranha" alt="Homem Aranha"width="200px" height="300px">
-        </a>
-            </div>
-            <!--A FILEIRA DE FILMES NOSTÁLGICOS-->
-            <h4 id="filmesNostalgicos"> FILMES NOSTÁLGICOS </h4>
-            <div classe="containerImagensCatalogo2">
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\A bela e a fera.jpg" id="ABelaEAFera" alt="A Bela e a Fera" width="200px" height="300px">
-        </a>
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\ET.jpg" id="ET" alt="ET" width="200px" height="300px">
-        </a>
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\Indiana Jones e os Caçadores da Arca Perdida.jpg" id="indianaJones" alt="Indiana Jones e os Caçadores da Arca Perdida" width="200px" height="300px">
-        </a>
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\CURTINDO-A-VIDA-ADOIDADO-1.jpg" id="CurtindoAVida" alt="Curtindo a Vida Adoidado" width="200px" height="300px">
-        </a>
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\Grease.jpg" id="Grease" alt="Grease" width="200px" height="300px">
-        </a>
-        <a target="_blank" href="">
-          <img type="img" src="assets.catálogo\Goonies.jpg" id="gonnies" alt="Os Gonnies" width="200px" height="300px">
-        </a>
-           </div>
-        <div class ="filmeNaoEncontrado">
-          <h3 id ="mensagem"></h3>
+      <h4 id="filmesPopulares">Filmes Populares</h4>
+        <div class ="containerImagensCatalogo">
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\Star Wars - Uma nova esperança.jpg" id="StarWars" alt="Filme Star Wars IV: Uma nova esperança" width="200px" height="300px">
+          </a>
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\Titanic_poster.jpg" id="Titanic" alt="Titanic" width="200px" height="300px">
+          </a>
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\filme-de-volta-para-o-futuro.jpg" id="DeVoltaParaOFuturo" alt="De volta para o futuro" width="200px" height="300px">
+          </a>
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\Pulp_Fiction.jpg" id="PulpFiction" alt="Pulp Fiction" width="200px" height="300px">
+          </a>
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\Jurassic Park.jpg" id="JurassicPark" alt="Jurassic Park"width="200px" height="300px">
+          </a>
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\Homem Aranha 1.jpg" id="HomemAranha" alt="Homem Aranha"width="200px" height="300px">
+          </a>
         </div>
-    </body>
+      <!--A FILEIRA DE FILMES NOSTÁLGICOS-->
+      <h4 id="filmesNostalgicos">Filmes Nostálgicos</h4>
+        <div class="containerImagensCatalogo2">
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\A bela e a fera.jpg" id="ABelaEAFera" alt="A Bela e a Fera" width="200px" height="300px">
+          </a>
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\ET.jpg" id="ET" alt="ET" width="200px" height="300px">
+          </a>
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\Indiana Jones e os Caçadores da Arca Perdida.jpg" id="indianaJones" alt="Indiana Jones e os Caçadores da Arca Perdida" width="200px" height="300px">
+          </a>
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\CURTINDO-A-VIDA-ADOIDADO-1.jpg" id="CurtindoAVida" alt="Curtindo a Vida Adoidado" width="200px" height="300px">
+          </a>
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\Grease.jpg" id="Grease" alt="Grease" width="200px" height="300px">
+          </a>
+          <a target="_blank" href="">
+            <img type="img" src="assets.catálogo\Goonies.jpg" id="gonnies" alt="Os Gonnies" width="200px" height="300px">
+          </a>
+        </div>
+      <div class ="filmeNaoEncontrado">
+        <h3 id ="mensagem"></h3>
+      </div>
+  
     <footer class="rodape">
       <div class="container-rodape">
           <p class="copyright">ResiliaFlix &copy; 2021</p>
           <img class="imagem-rodape"src="assets/rodape.png" alt="Imagem com logo do Youtube, Facebook e Instagram"></img>
       </div>
     </footer>	
+
         <!--O link para as dependências do bootstrap que incluem javascript-->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!--Interatividade do catalogo-->
-            <script src="catalogo.js"></script>
-    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+            <script src="js/catalogo.js"></script>
+    	      
     </body>
 </html>
