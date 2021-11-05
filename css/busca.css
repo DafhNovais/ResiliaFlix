@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 10, 20, 1);
+  background-color: linear-gradient(#000a14, #00000000);
+}
+
+.align {
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+  width: 300px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.place {
+  background-color: rgba(13, 12, 12, 0.5);
+  border-color: rgba(112, 112, 112, 1);
+  padding-left: 38px;
+}
+
+.texto {
+  margin-top: 120px;
+  margin-bottom: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.margin {
+  margin-left: 60px;
+}
+
+.poster {
+  float: left;
+  width: cover;
+  height: 300px;
+  color: white;
+}
