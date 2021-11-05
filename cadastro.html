@@ -67,29 +67,44 @@
             </div>
             <div class="bloco">
               <input type="number" id="rg" name="rg" placeholder="RG" />
-              <input type="number" id="cep" name="cep" placeholder="CEP" />
+              <input
+                type="text"
+                id="cep"
+                name="cep"
+                maxlength="9"
+                size="10"
+                onblur="pesquisacep(this.value);"
+                placeholder="CEP"
+              />
               <div class="local">
-                <select>
-                  <option>Estado</option>
-                  <option>...</option>
-                </select>
-                <select>
-                  <option>Cidade</option>
-                  <option>...</option>
-                </select>
-                <select>
-                  <option>Bairro</option>
-                  <option>...</option>
-                </select>
+                <input
+                  class="local2"
+                  type="text"
+                  name="estado"
+                  id="estado"
+                  placeholder="Estado"
+                />
+                <input
+                  class="local2"
+                  type="text"
+                  name="cidade"
+                  id="cidade"
+                  placeholder="Cidade"
+                />
+                <input
+                  class="local2"
+                  type="text"
+                  name="bairro"
+                  id="bairro"
+                  placeholder="Bairro"
+                />
               </div>
               <div class="endereco">
-                <input type="text" placeholder="Rua" />
-                <input type="number" placeholder="n°" />
+                <input type="text" name="rua" id="rua" placeholder="Rua" />
+                <input type="number" name="n°" id="n°" placeholder="n°" />
               </div>
             </div>
           </div>
-          <!-- <button>Cadastrar</button><br />
-          Já tem uma conta? <a href="login.html">Entrar</a> -->
         </form>
         <button>Cadastrar</button><br />
         Já tem uma conta? <a href="login.html">Entrar</a>
