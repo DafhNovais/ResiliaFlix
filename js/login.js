@@ -19,6 +19,7 @@ function validarEmail(email) {
 
     } 
 }   
+
 function validarSenha(senha){
 
     var senha = formuser.senha.value;
@@ -29,6 +30,6 @@ function validarSenha(senha){
     }
     else{
         document.getElementById("msgsenha").innerHTML="<p style='color:#ff0000; font-weight:bold' >Senha inválida</p>"; 
-        alert('Senha inválida, necessário conter entre 6 a 8 caracteres')  
+        alert('Senha inválida, necessário conter entre 6 a 8 caracteres');  
     }   
 }
