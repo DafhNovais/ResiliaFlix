@@ -21,13 +21,18 @@
         <nav class="navbar navbar-dark navbar-expand-lg cor-navbar fixed-top">
             <div class="container-fluid">
                 <a class="titulo-edicoes fonte-titulo" href="#">ResiliaFlix</a>
-                <form class="" id="movieForm" autocomplete="off">
+                <form class="mt-0" id="movieForm" autocomplete="off">
                     <div class="form-group align mt-0">
                         <label for="Movie"></label>
                         <img class="icon" src="./assets/search.png" alt="">
                         <input class="form-control place" type="text" id="movie" placeholder="Encontrou o que procura?">
                     </div>
                 </form>
+            </div>
+            <div class="d-flex">
+                <a href="login.html">
+                    <img class="icone-login" src="assets/user.png" alt="Ícone de um boneco"></img>
+                </a>
             </div>
         </nav>
     </header>
@@ -70,7 +75,7 @@
 
                     result = `
                     <img class="poster img-thumnail" src="${data.Poster}"/>
-                    <h2>${data.Title}</h2>
+                    <!--<h2>${data.Title}</h2>-->
                     
                     `;
 
