@@ -123,10 +123,8 @@ body {
 
 #tituloCarroselET {
     margin-bottom: 40px;
-    /* margin-right: 1300px; */
     padding-right: 10px;
     font-weight:800;
-    /* width: 330px; */
     text-shadow:rgb(0, 0, 0) 3px 4px 5px;
 }
 
@@ -155,10 +153,8 @@ body {
 
 #tituloCarroselJurassic {
     margin-bottom: 40px;
-    /* margin-right: 1300px; */
     padding-right: 10px;
     font-weight:800;
-    /* width: 330px; */
     text-shadow:rgb(0, 0, 0) 3px 4px 5px;
 } 
 
@@ -187,10 +183,8 @@ body {
 
 #tituloCarroselPulpFiction {
     margin-bottom: 40px;
-    /* margin-right: 1300px; */
     padding-right: 10px;
     font-weight:800;
-    /* width: 330px; */
     text-shadow:rgb(0, 0, 0) 3px 4px 5px;
 }
 
@@ -209,11 +203,6 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 10px;
     padding: 3px;
-
-    /* font-weight: 700;
-    text-align: left;
-    margin-top: 40px;
-    font-family: 'Roboto', sans-serif; */
 }
 
 #sinopsePulp {
