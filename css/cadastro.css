@@ -17,7 +17,7 @@ main {
   min-height: 100vh;
 }
 
-form {
+.formulario {
   height: 370px;
   background: #000a14cc;
   border-radius: 15px;
@@ -53,10 +53,10 @@ a {
 }
 
 .local {
-    display: flex;
-    width: 190px;
-    margin: 0 38px;
-    position: relative;
+  display: flex;
+  width: 190px;
+  margin: 0 38px;
+  position: relative;
 }
 
 .endereco {
@@ -66,7 +66,7 @@ a {
   position: relative;
 }
 
-.endereco input{
+.endereco input {
   width: 95px;
 }
 
