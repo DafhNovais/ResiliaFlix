@@ -149,7 +149,7 @@
   .movie{
       width: 220px;
   }
-
+  
   .movie img:hover {
     transform: scale(105%);
   }
