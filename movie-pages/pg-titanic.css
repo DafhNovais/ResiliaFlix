@@ -11,7 +11,7 @@
   }
   
   section.filme {
-    background-image: url(../assets/star\ wars.jpg);
+    background-image: url(../assets/titanic.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -126,7 +126,7 @@
     overflow-x: auto;
     position: absolute;
     left: 23px;
-    top: 600px;
+    top: 730px;
     right: 0;
     z-index: 3;
   }
