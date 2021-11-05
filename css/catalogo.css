@@ -1,5 +1,5 @@
 #corDeFundo {
-    background-color: #3A3A3A;
+    background-color: rgba(0, 10, 20, 1);
     background-image: linear-gradient(#00000000,#000A14)
 }
 
@@ -7,7 +7,9 @@
     display: flex;
     color: white;
     font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
     margin-left: 10px;
+    margin-bottom: 12px;
 }
 
 #filmesPopulares {
@@ -15,7 +17,7 @@
     color: white;
     font-family: 'Roboto', sans-serif;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .containerImagensCatalogo {
@@ -27,123 +29,62 @@
     justify-content: space-between;
 }
 
+.containerImagensCatalogo img:hover{
+    transform: scale(105%);
+}
+
+.containerImagensCatalogo img{
+    margin-right: 15px;
+}
+
 #StarWars {
-    margin-left: 12px;
-}
-
-#StarWars:hover {
-    width: 225px;
-    height: 325px;
-}
-
-#Titanic {
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
-#Titanic:hover {
-    width: 225px;
-    height: 325px;
-}
-
-#DeVoltaParaOFuturo {
-    margin-right: 15px;
-}
-
-#DeVoltaParaOFuturo:hover {
-    width: 225px;
-    height: 325px;
-}
-
-#PulpFiction {
-    margin-right: 12px;
-}
-
-#PulpFiction:hover {
-    width: 225px;
-    height: 325px;
-}
-
-#JurassicPark {
-    margin-right: 12px;
-}
-
-#JurassicPark:hover {
-    width: 225px;
-    height: 325px;
-}
-
-#HomemAranha:hover {
-    width: 225px;
-    height: 325px;
-}
-
-.containerImagensCatalogo2{
-    display: flex;
-    align-items: center; 
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    margin-left: 10px;
 }
 
 #ABelaEAFera {
     margin-left: 20px;
-    margin-bottom: 50px;
+    
 }
 
 #ABelaEAFera:hover {
-    width: 225px;
-    height: 325px;
+    transform: scale(105%);
 }
 
 #ET {
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 50px;
+    
 }
 
 #ET:hover {
-    width: 225px;
-    height: 325px;
+    transform: scale(105%);
 }
 
 #CurtindoAVida {
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 50px;
+    
 }
 
 #CurtindoAVida:hover {
-    width: 225px;
-    height: 325px;
+    transform: scale(105%);
 }
 
 #Grease {
     margin-right: 12px;
-    margin-bottom: 50px;
+    
 }
 
 #Grease:hover {
-    width: 225px;
-    height: 325px;
-}
-
-#indianaJones {
-    margin-bottom: 50px;
+    transform: scale(105%);
 }
 
 #indianaJones:hover {
-    width: 225px;
-    height: 325px;
-}
-
-#gonnies {
-    margin-bottom: 50px;
+    transform: scale(105%);
 }
 
 #gonnies:hover {
-    width: 225px;
-    height: 325px;
+    transform: scale(105%);
 }
 
 #tituloCarroselET {
