@@ -80,6 +80,7 @@ input {
   border-right: #1014000a;
   width: 190px;
   margin-top: 10px;
+  outline: none;
 }
 
 ::placeholder {
@@ -105,7 +106,7 @@ button {
   width: 45%;
   text-transform: uppercase;
   background: #e0cb10;
-  border-color: #e0cb10;
+  border: none;
   color: white;
   border-radius: 4px;
   font-weight: bold;
