@@ -107,19 +107,6 @@ a{
   max-width: 25vw;
 }
 
-
-/*label{
-  background: #000a1400;
-  color: white;
-  /*Definindo a altura do elemento*/
-  /*height: 20px;
-  max-width: 60vw;
-  margin: 10px 10px;
-  /*Definindo a largura do elemento*/
-/*   
-}
-*/
-
 button{
   font-size: 12px;
   margin: 45px 3% 10px 12px;
@@ -231,8 +218,6 @@ button{
   padding: 5px 10px;
   /*Definindo a largura do elemento*/ 
   margin-top: 10px;
-  /* border-left: 15px;
-  border-right: 15px; */
 }
 
 .aviso-email {

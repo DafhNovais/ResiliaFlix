@@ -39,7 +39,6 @@
 
 #StarWars {
     margin-left: 10px;
-}
 
 #ABelaEAFera {
     margin-left: 20px;
@@ -94,6 +93,8 @@
 }
 
 .conteudoCarroselET {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 60px;
     margin-right: 1200px;
     width: 600px;
@@ -109,9 +110,8 @@
 }
 
 #sinopseET {
-    font-weight: 700;
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -125,6 +125,8 @@
 } 
 
 #conteudoCarroselJurassic {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 70px;
     margin-right: 1200px;
     width: 600px;
@@ -139,10 +141,9 @@
 }
 
 #sinopseJurassic {
-     font-weight: 700;
      font-size: 20px;
-     text-align: left;
-     font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 
 #tituloCarroselPulpFiction {
@@ -155,6 +156,8 @@
 }
 
 #conteudoCarroselPulpFiction {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 70px;
     margin-right: 1200px;
     width: 600px;
@@ -170,8 +173,43 @@
 }
 
 #sinopsePulp {
-    font-weight: 700;
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
+}
+
+#lupa {
+    color: white;
+}
+
+#mensagem {
+    color: white;
+}
+
+.botao-carrossel {
+    align-self: flex-start;
+    padding: 10px 0;
+}
+
+#botao-saiba-mais {
+    background-color: rgba(224, 203, 16, 1);
+    height: 44px;
+    width: 156px;
+    border-radius: 5px;
+    border: 2px solid rgba(224, 203, 16, 1);
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+}
+
+@media screen and (max-width: 990px) {
+    .containerImagensCatalogo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerImagensCatalogo2 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
