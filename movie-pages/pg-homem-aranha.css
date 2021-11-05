@@ -150,6 +150,10 @@
       width: 220px;
   }
   
+  .movie img:hover {
+    transform: scale(105%);
+  }
+  
   .slider .movie {
       min-width: 14rem;
       margin: 0px 0.7rem 8px;
