@@ -1,32 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}  
+
 #corDeFundo {
     background-color: rgba(0, 10, 20, 1);
     background-image: linear-gradient(#00000000,#000A14)
+}
+
+.container-carrossel {
+    display: flex !important;
+    justify-content: flex-end !important;
+    width: 100% !important;
+    padding-top: 150px !important;
+    padding-right: 150px !important;
+    text-align: right !important;
+}
+
+.conteudo-container-carrossel {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 70px;
+    padding: 10px;
+}
+
+.imagem-carrossel {
+    -webkit-mask-image: linear-gradient(to top, transparent 2%, black 50%);
+}
+
+.inf-filmes-carrossel {
+    display: flex;
+    margin: 10px 0;
 }
 
 #filmesNostalgicos {
     display: flex;
     color: white;
     font-family: 'Roboto', sans-serif;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-bottom: 12px;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 #filmesPopulares {
     display: flex;
     color: white;
     font-family: 'Roboto', sans-serif;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .containerImagensCatalogo {
+    display: flex;
     align-items: center; 
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .containerImagensCatalogo img:hover{
@@ -87,8 +122,11 @@
 }
 
 #tituloCarroselET {
-    margin-right: 1200px;
-    font-weight: 800;
+    margin-bottom: 40px;
+    /* margin-right: 1300px; */
+    padding-right: 10px;
+    font-weight:800;
+    /* width: 330px; */
     text-shadow:rgb(0, 0, 0) 3px 4px 5px;
 }
 
@@ -102,11 +140,11 @@
 }
 
 #infoET {
-    font-weight: 700;
-    color: rgb(236, 213, 0);
+    font-weight: 500;
     text-align: left;
-    margin-top: 40px;
     font-family: 'Roboto', sans-serif;
+    line-height: 10px;
+    padding: 3px;
 }
 
 #sinopseET {
@@ -117,10 +155,10 @@
 
 #tituloCarroselJurassic {
     margin-bottom: 40px;
-    margin-right: 1300px;
+    /* margin-right: 1300px; */
     padding-right: 10px;
     font-weight:800;
-    width: 330px;
+    /* width: 330px; */
     text-shadow:rgb(0, 0, 0) 3px 4px 5px;
 } 
 
@@ -134,24 +172,25 @@
 }
 
 #infoJurassic {
-    font-weight: 700;
-    color: rgb(236, 213, 0);
+    font-weight: 500;
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    line-height: 10px;
+    padding: 3px;
 }
 
 #sinopseJurassic {
-     font-size: 20px;
+    font-size: 20px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
 }
 
 #tituloCarroselPulpFiction {
-    margin-bottom: 20px;
-    margin-right: 1300px;
-    padding-right: 50px;
-    font-weight: 800;
-    width: 330px;
+    margin-bottom: 40px;
+    /* margin-right: 1300px; */
+    padding-right: 10px;
+    font-weight:800;
+    /* width: 330px; */
     text-shadow:rgb(0, 0, 0) 3px 4px 5px;
 }
 
@@ -165,11 +204,16 @@
 }
 
 #infoPulp {
-    font-weight: 700;
-    color: rgb(236, 213, 0);
+    font-weight: 500;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    line-height: 10px;
+    padding: 3px;
+
+    /* font-weight: 700;
     text-align: left;
     margin-top: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; */
 }
 
 #sinopsePulp {
@@ -191,15 +235,21 @@
     padding: 10px 0;
 }
 
-#botao-saiba-mais {
-    background-color: rgba(224, 203, 16, 1);
+#botao-carrossel {
+    background-color: rgba(75, 69, 68, 0.9);
     height: 44px;
     width: 156px;
     border-radius: 5px;
-    border: 2px solid rgba(224, 203, 16, 1);
+    border: 2px solid rgba(75, 69, 68, 0.9);
     font-family: 'Roboto', sans-serif;
     color: rgba(255, 255, 255, 1);
-    font-size: 18px;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+#botao-carrossel:hover {
+    background-color: rgba(224, 203, 16, 1);
+    border: 3px solid rgba(224, 203, 16, 1);
 }
 
 @media screen and (max-width: 990px) {
