@@ -23,6 +23,18 @@ section.filme {
   padding-bottom: 170px;
 }
 
+a .far {
+  position: absolute;
+  z-index: 3;
+  top: 200px;
+  left: 60px;
+  color: white;
+  border-color: red;
+  width: 32px;
+  height: 32px;
+  
+}
+
 .overlay {
   z-index: 2;
   position: absolute;
@@ -37,7 +49,7 @@ section.filme {
   color: rgba(255, 255, 255, 1);
   z-index: 3;
   position: relative;
-  margin-top: 100px;
+  margin-top: 120px;
   margin-left: 4%;
 }
 
@@ -53,7 +65,7 @@ section.filme {
   display: inline-block;
 }
 
-.anoL {
+.an0 {
   margin-left: 20px;
 }
 
@@ -115,7 +127,7 @@ section.filme {
   overflow-x: auto;
   position: absolute;
   left: 23px;
-  top: 700px;
+  top: 720px;
   right: 0;
   z-index: 3;
 }
